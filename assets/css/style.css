@@ -176,7 +176,7 @@ body {
         font-size: 10px;
     }
     .link-area .jomphaa-btn::before {
-        top: -2px;
+        top: -2.5px;
         left: -2px;
     }
 }
