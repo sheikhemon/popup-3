@@ -1,0 +1,232 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* MainWrap */
+
+.mainWrapper {
+    height: 100vh;
+    background-color: black;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Popup */
+
+.main_popup {
+    width: 30em;
+    background-color: #ffffff;
+    position: relative;
+}
+
+/*  Images */
+
+.main_popup .popup_bg {
+    background-image: url("../img/popup-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15.5em;
+}
+
+.main_popup .popup_bg img {
+    width: 28em;
+    height: 14em;
+    position: relative;
+    top: 1.1em;
+    left: 1em;
+    border-radius: .8em;
+}
+
+/* Popup Content */
+
+.popup_content {
+    padding-top: 1.7em;
+    text-align: center;
+}
+
+/* Popup Text */
+
+.popup_content .popup_text h1 {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1em;
+    color: #BCBAD0;
+    padding-bottom: .3em;
+}
+
+.popup_content .popup_text h1 span {
+    color: #3D3D3D;
+}
+
+.popup_content .popup_text p {
+    font-size: .67em;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #848484;
+    padding-bottom: 2.2em;
+}
+
+.popup_content .count_popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5em;
+}
+
+.popup_content .count_popup .single_time {
+    margin-right: .8em;
+}
+
+.popup_content .count_popup .single_time:last-child {
+    margin-right: 0em;
+}
+
+.popup_content .count_popup .single_time span {
+    background-color: #F4F4F4;
+    color: #4F80FF;
+    font-size: 1.6em;
+    font-weight: 300;
+    line-height: 1em;
+    padding: 0 .3em;
+}
+
+.popup_content .count_popup .single_time p {
+    color: #000000;
+    font-size: .35em;
+    font-weight: 500;
+    line-height: 1.5em;
+    padding-top: 1em;
+}
+
+/*  Button Area Start */
+
+.link_area {
+    padding-bottom: 1.5em;
+}
+
+.link_area .jomphaa_btn, .shop_btn {
+    text-decoration: none;
+    padding: .8em 3.2em;
+    font-size: .55em;
+    line-height: 1.273em;
+}
+
+/* Jomphaa Button */
+
+.jomphaa_btn {
+    background: rgb(114, 102, 185);
+    background: linear-gradient(to right, #CA25E2 0%, #7909AA 80%);
+    color: #ffffff;
+    font-weight: 500;
+    margin-right: 0.7em;
+    position: relative;
+}
+
+/* Shop Button */
+
+.shop_btn {
+    background-color: #E3E5F2;
+    color: #000000;
+    font-weight: 600;
+}
+
+.link_area .jomphaa_btn::before {
+    content: '';
+    position: absolute;
+    top: -3.5px;
+    left: -3px;
+    width: 106%;
+    border: .21em dashed #7094F6;
+    opacity: .5;
+    height: 129%;
+}
+
+/* Close Area */
+
+.mainWrapper .close {
+    z-index: 99999;
+    color: rgb(255, 255, 255);
+    background-color: rgb(28, 7, 77);
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14.5px;
+    font-weight: 500;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+}
+
+/* Media Query for Mobile Devices */
+
+@media screen and (max-width: 667px) {
+    .mainWrapper {
+        font-size: 8px;
+    }
+    .link_area .jomphaa_btn::before {
+        top: -2px;
+        left: -2px;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+
+@media (min-width: 668px) and (max-width: 1024px) {
+    .mainWrapper {
+        font-size: 10px;
+    }
+    .link_area .jomphaa_btn::before {
+        top: -2.5px;
+        left: -2.1px;
+        width: 106%;
+        height: 129%;
+    }
+}
+
+/* Media Query for Laptops and Desktops */
+
+@media (min-width: 1025px) and (max-width: 1369px) {
+    .mainWrapper {
+        font-size: 14px;
+    }
+}
+
+/* Media Query for Large screens */
+
+@media (min-width: 1281px) {
+    .mainWrapper {
+        font-size: 15px;
+    }
+    .link_area .jomphaa_btn::before {
+        top: -3.5px;
+        left: -3px;
+        width: 106%;
+        height: 129%;
+    }
+}
+
+/* Media Query for Large screens */
+
+@media (min-width: 1370px) and (max-width: 1920px) {
+    .mainWrapper {
+        font-size: 22px;
+    }
+    .link_area .jomphaa_btn::before {
+        top: -3.5px;
+        left: -3px;
+        width: 106%;
+        height: 129%;
+    }
+}

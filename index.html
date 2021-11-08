@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Popup</title>
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Main Area Start -->
+    <main class="mainWrapper">
+        <!-- Popup Main -->
+        <div class="main_popup">
+            <!-- close -->
+            <div class="close" onclick="closeBtn()">&times;</div>
+            <div class="popup_bg">
+                <img src="assets/img/popup-main.jpg" alt="">
+            </div>
+            <div class="popup_content">
+                <div class="popup_text">
+                    <h1>GET EXCITING OFFERS THIS <br> <span>CYBER MONDAY</span></h1>
+                    <p>Get your favorite all Items in one place</p>
+                </div>
+                <!-- Time Area -->
+                <div class="count_popup">
+                    <div class="single_time">
+                        <span>0</span>
+                        <span>6</span>
+                        <p>Hours</p>
+                    </div>
+                    <div class="single_time">
+                        <span>2</span>
+                        <span>0</span>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="single_time">
+                        <span>4</span>
+                        <span>8</span>
+                        <p>Second</p>
+                    </div>
+                </div>
+                <!-- Popup Button -->
+                <div class="link_area">
+                    <a class="jomphaa_btn" href="#">JOM12358469</a>
+                    <a class="shop_btn" href="#">GO TO SHOP</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Main Area End -->
+    <!-- JS Custom Script-->
+    <script>
+        function closeBtn() {
+            document.querySelector('.mainWrapper').style.display = "none";
+            document.querySelector('.close').style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
