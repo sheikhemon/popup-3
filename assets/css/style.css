@@ -173,7 +173,7 @@ body {
 
 @media screen and (max-width: 667px) {
     .main-wrapper {
-        font-size: 8px;
+        font-size: 10px;
     }
     .link-area .jomphaa-btn::before {
         top: -2px;
@@ -185,7 +185,7 @@ body {
 
 @media (min-width: 668px) and (max-width: 1024px) {
     .main-wrapper {
-        font-size: 10px;
+        font-size: 12px;
     }
     .link-area .jomphaa-btn::before {
         top: -2.5px;
