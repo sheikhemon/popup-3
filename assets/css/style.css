@@ -175,6 +175,7 @@ body {
     .main-wrapper {
         font-size: 10px;
     }
+
     .link-area .jomphaa-btn::before {
         top: -2.5px;
         left: -2px;
@@ -187,6 +188,7 @@ body {
     .main-wrapper {
         font-size: 12px;
     }
+
     .link-area .jomphaa-btn::before {
         top: -2.5px;
         left: -2.1px;
@@ -209,6 +211,7 @@ body {
     .main-wrapper {
         font-size: 15px;
     }
+
     .link-area .jomphaa-btn::before {
         top: -3.1px;
         left: -3px;
@@ -223,9 +226,10 @@ body {
     .main-wrapper {
         font-size: 20px;
     }
+
     .link-area .jomphaa-btn::before {
-        top: -3.5px;
-        left: -3px;
+        top: -4.5px;
+        left: -4px;
         width: 106%;
         height: 129%;
     }
